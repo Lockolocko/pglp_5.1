@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * @author Lockolocko
  *
  */
-public class AffichageParGroupe {
+public class AffichageParGroupe implements Serializable {
     /**
      * ArrayList.
      */
