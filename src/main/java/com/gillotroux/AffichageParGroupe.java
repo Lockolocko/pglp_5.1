@@ -16,7 +16,11 @@ public class AffichageParGroupe implements Serializable {
      */
     private ArrayList<InterfacePersonnels> arr =
 new ArrayList<InterfacePersonnels>();
-
+    /**
+     * Version de classe.
+     */
+    private  static  final  long serialVersionUID = 1;
+    
     /**
      * Constructeur.
      * @param root

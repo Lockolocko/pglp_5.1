@@ -21,7 +21,10 @@ public class CompositePersonnels implements InterfacePersonnels,Serializable {
  */
 
     private List<Personnel> listePersonnel = new ArrayList<Personnel>();
-
+    /**
+     * Version de classe.
+     */
+    private static final long serialVersionUID = 2;
 /**
  * Un numéro de service.
  */

@@ -32,7 +32,10 @@ public final class Personnel implements InterfacePersonnels,Serializable {
  * Numéro fixe personnel.
  */
     private final int numeroFixPer;
-
+    /**
+     * Version de classe.
+     */
+    private static final long serialVersionUID = 3;
 /**
  * Constructeur de la classe.
  * @param builder
