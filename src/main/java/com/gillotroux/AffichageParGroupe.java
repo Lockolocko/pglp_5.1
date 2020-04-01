@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * @author Lockolocko
  *
  */
-public class AffichageParGroupe implements Serializable {
+public class AffichageParGroupe implements java.io.Serializable {
     /**
      * ArrayList.
      */
@@ -19,7 +19,7 @@ new ArrayList<InterfacePersonnels>();
     /**
      * Version de classe.
      */
-    private  static  final  long serialVersionUID = 1;
+    private static final long serialVersionUID = 1;
     
     /**
      * Constructeur.
