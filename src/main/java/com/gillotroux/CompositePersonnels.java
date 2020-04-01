@@ -14,7 +14,7 @@ import java.util.List;
  *
  */
 
-public class CompositePersonnels implements InterfacePersonnels {
+public class CompositePersonnels implements InterfacePersonnels,Serializable {
 
 /**
  * Une liste du personnel.
