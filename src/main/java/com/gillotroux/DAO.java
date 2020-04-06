@@ -8,6 +8,7 @@ package com.gillotroux;
  * @param <T>
  */
 public interface DAO<T> {
+    //protected Connection connect = /* ... */;
     /**
      * Permet la création d'un objet en SGBD.
      * @param obj
