@@ -8,7 +8,6 @@ import java.util.ArrayList;
 /**
  * Affichage par groupe.
  * @author Lockolocko
- *
  */
 public class AffichageParGroupe implements java.io.Serializable {
     /**
@@ -20,7 +19,6 @@ new ArrayList<InterfacePersonnels>();
      * Version de classe.
      */
     private static final long serialVersionUID = 1;
-    
     /**
      * Constructeur.
      * @param root

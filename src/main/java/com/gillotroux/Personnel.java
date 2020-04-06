@@ -11,7 +11,8 @@ import java.time.LocalDate;
  * @author Lockolocko
  *
  */
-public final class Personnel implements InterfacePersonnels,java.io.Serializable {
+public final class Personnel implements InterfacePersonnels,
+java.io.Serializable {
 /**
  * Nom du personnel.
  */

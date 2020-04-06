@@ -12,24 +12,24 @@ public interface DAO<T> {
     /**
      * Permet la création d'un objet en SGBD.
      * @param obj
-     * @return
+     * @return T
      */
-    public T create(T obj);
+    T create(T obj);
     /**
      * Trouver.
      * @param id
-     * @return
+     * @return T
      */
-    public T find(String id);
+    T find(String id);
     /**
      * Update.
      * @param obj
-     * @return
+     * @return T
      */
-    public T update(T obj);
+    T update(T obj);
     /**
      * Supprimer.
      * @param obj
      */
-    public void delete(T obj);
+    void delete(T obj);
 }

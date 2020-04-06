@@ -5,35 +5,46 @@ package com.gillotroux;
 
 import java.io.Serializable;
 
-public class PersonnelDAO implements DAO<Personnel>,Serializable {
+public class PersonnelDAO implements DAO<Personnel>,
+Serializable {
     /**
-     * 
+     * Serialisation id.
      */
     private static final long serialVersionUID = 1L;
-
-    @Override
-    public Personnel create(Personnel obj) {
+    /**
+     * Creer Personnel en SGBD.
+     * @param obj
+     * @return Personnel
+     */
+    public Personnel create(final Personnel obj) {
         // TODO Auto-generated method stub
         return obj;
     }
-
-    @Override
-    public Personnel find(String id) {
+    /**
+     * Trouve Personnel en SGBD.
+     * @param id
+     * @return Personnel
+     */
+    public Personnel find(final String id) {
         Personnel p;
         // TODO Auto-generated method stub
         return null;
     }
-
-    @Override
-    public Personnel update(Personnel obj) {
+    /**
+     * Update Personnel en SGBD.
+     * @param obj
+     * @return Personnel
+     */
+    public Personnel update(final Personnel obj) {
         // TODO Auto-generated method stub
         return obj;
     }
-
-    @Override
-    public void delete(Personnel obj) {
+    /**
+     * Supprime Personnel en SGBD.
+     * @param obj
+     */
+    public void delete(final Personnel obj) {
         // TODO Auto-generated method stub
-        
     }
 
 }
